@@ -39,3 +39,19 @@ We then form all of these values in the tuple format:
 
 We also pass the reward token amount. Make sure to pass the absolute value.  
 For example: 1000 tokens = 1000 * 10 ** 18 = **1000**000000000000000000
+
+We can now proceed to the **createIncentive()** function in the Ranch V3 contract:
+
++ key (tuple)
++ reward (uint256)
+
+## Some reasons for possible errors
+
++ Incorrect pool address
++ The incentive start date is in the past;
++ STAIK reward tokens were not approved;
++ Incentive period is too long (max. duration 730 days (63072000 seconds))
+
+## Calculating the incentive hash
+
+
