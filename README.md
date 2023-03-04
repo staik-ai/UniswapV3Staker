@@ -53,5 +53,15 @@ We can now proceed to the **createIncentive()** function in the Ranch V3 contrac
 + Incentive period is too long (max. duration 730 days (63072000 seconds))
 
 ## Calculating the incentive hash
+We can utilizie the CalculateIncentiveHash smart contract to derive an unhashed incentive key.   
+We pass in the key(tuple) we generated into the **getUnhashedKey()** function.  
+This returns an **Unhashed incentive key**.  
+
+The **Unhashed incentive key** will be used as data for staking via the Uniswap V3 NFT position manager:
+
+We can also pass in the key(tuple) we generated into the **getHashedkey()** function.  
+This returns a **Hashed incentive key**.  
+
+The **Hashed incentive key** will be used as data for staking via the Uniswap V3 NFT position manager:
 
 
