@@ -5,11 +5,11 @@ staking for V3 NFT's
 
 There are several contracts to be acquainted with before proceeding:
 
-..* Uniswap V3 NFT position manager (contract address: TBC)
-..* Ranch (Uniswap V3) staker contract (contract address: TBC)  
-..* Token 0 - STAIK (contract address: TBC)  
-..* Token 1 - USDC (contract address: 0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8)  
-..* Reward token: STAIK  
++ Uniswap V3 NFT position manager (contract address: TBC)
++ Ranch (Uniswap V3) staker contract (contract address: TBC)  
++ Token 0 - STAIK (contract address: TBC)  
++ Token 1 - USDC (contract address: 0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8)  
++ Reward token: STAIK  
 
 After a pool is created, there will be a STAIK/USDC pool address.  
 There will also be a Uniswap NFT representing the position, and the NFT will have a token ID number.
